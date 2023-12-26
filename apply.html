@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Altschool Application</title>
+        <link rel="icon" type="image/x-icon" href="AltSchool-Logo.png">
+    </head>
+    <body>
+        <img src="./images/AltSchool-Logo.png" alt="">
+        <h2>Application Form</h2>
+        <p>Fill in your details</p>
+        
+        <form>
+            <p><label for="fname">First Name<i style="color: red;">*</i></label>
+            <input type="text" placeholder="Enter first name" id="fname">
+            <label for="lname">Last Name<i style="color: red;">*</i></label>
+            <input type="text" placeholder="Enter last name" id="lname"></p>
+            <p><label for="gender">Gender<i style="color: red;">*</i></label>
+            <select id="gender" name="gender">
+                <option>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <label for="dob">Date of Birth<i style="color: red;">*</i></label>
+            <input type="date" id="dob"></p>
+            <p><label for="mail">Email Adress<i style="color: red;">*</i></label>
+            <input type="email" placeholder="Enter email address" id="mail">
+            <label for="edulevel">Education Level<i style="color: red;">*</i></label>
+            <select id="edulevel" name="edulevel">
+                <option>Select level of education</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="diploma">Diploma</option>
+                <option value="phd">Doctorate (PHD)</option>
+                <option value="school">High School / Secondary School</option>
+                <option value="ugrad">Under Graduate</option>
+                <option value="pgrad">Post Graduate</option>
+                <option value="jschool">Junior / Middle School</option>
+            </select>
+            <p><label for="country">Country<i style="color: red;">*</i></label>
+            <select id="country" name="country">
+                <option>Select your country</option>
+                <option value="gh">Ghana</option>
+                <option value="ng">Nigeria</option>
+                <option value="kny">Kenya</option>
+                <option value="alb">Albania</option>
+                <option value="qt">Qatar</option>
+                <option value="arg">Argentina</option>
+                <option value="zam">Zambia</option>
+            </select>
+            <label for="state">State/City of residence<i style="color: red;">*</i></label>
+            <input type="text" placeholder="Enter your state of residence" id="state"></p>
+            <p><label for="employment">Employment status<i style="color: red;">*</i></label>
+            <select id="employment" name="employment">
+                <option>Select employment status</option>
+                <option value="employed">employed</option>
+                <option value="unemployed">unemployed</option>
+                <option value="selfemployed">self-employed</option>
+            </select>
+            <label for="number">Phone number<i style="color: red;">*</i></label>
+            <input type="number" placeholder="08123456700" id="number"></p>
+            <p><label for="school">Choose school<i style="color: red;">*</i></label>
+            <select id="school" name="school">
+                <option>Select school</option>
+                <option value="business">School of Business</option>
+                <option value="economy">School of Creative Economy</option>
+            </select>
+            <label for="course">Choose Course of Study<i style="color: red;">*</i></label>
+            <select id="course" name="course">
+                <option>Select course</option>
+                <option value="content">Content Mastery for African Creators</option>
+                <option value="impact">High-Impact Selling: From Prospecting to Closing</option>
+            </select></p>
+            <p><label for="about">How did you hear about us?<i style="color: red;">*</i></label>
+            <select id="about" name="about">
+                <option>Select channel</option>
+                <option value="x">X</option>
+                <option value="fb">Facebook</option>
+                <option value="whatsapp">WhatsApp</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="yt">Youtube</option>
+                <option value="friend">Friend</option>
+                <option value="ig">Instagram</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="discount">Schorlaship/Discount code (optional)</label>
+            <input type="text" placeholder="Schorlaship or student ID" id="discount"></p>
+        </form>
+        By clicking continue, I agree to <a href="https://www.altschoolafrica.com/terms">Terms of Use</a> and acknowledge that i have read the <a href="https://www.altschoolafrica.com/policy">Privacy Policy</a>.<br>
+        <p style="text-align: center"><input type="submit" value="Proceed"></p>
+        <p>Already have an account? <a href="https://portal.altschoolafrica.com/auth/login">Sign In</a></p>
+    </body>
+</html>
